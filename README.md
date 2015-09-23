@@ -7,4 +7,4 @@ run `webpack -w` to activate webpack watcher (concatenates files, compiles jsx t
 
 For now now the result is easily styled with bootstrap
 
-compiled non-minified non-uglified result is in public folder (you can just download index.html and bundle.js and open index.html in browser without running any server). After minification bundle.js is about 220Kb ( http://skalman.github.io/UglifyJS-online/) (can be made even less with additional webpack configuration)
+compiled non-minified non-uglified result is in public folder (you can just download index.html and bundle.js and open index.html in browser without running any server). After externalminification(non-webpack-based)( http://skalman.github.io/UglifyJS-online/) bundle.js is about 220Kb  (can be made even less with additional webpack configuration)
