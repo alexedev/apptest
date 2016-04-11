@@ -64,7 +64,7 @@ export default React.createClass({
 				var title = `User List in Group ${groupObj.title}`
 				groupOut = <div><h3>{title}</h3><br/>{userNodesCond}</div>;
 			} else {
-				groupOut = <h3>Группы с таким Id не существует</h3>
+				groupOut = <h3>There is no group with such an Id</h3>
 			}
 
 		}
