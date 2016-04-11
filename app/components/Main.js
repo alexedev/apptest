@@ -41,9 +41,12 @@ const users = [
 export default React.createClass({
 	mixins: [Router.State],
 	render() {
-		let groupNodes = groups.map(function (group) {
+		var groupNodes = groups.map(function (group) {
+            var user_count = _.filter(users, function(user) {
+                return user.group_id == group.id
+            }).length;
       		return (
-      			<li><Group name={group.title} count={group.users_count} key={group.id} groupId={group.id} /></li>
+      			<li><Group name={group.title} count={user_count} key={group.id} groupId={group.id} /></li>
       		);
     	});
 		if (!!this.getParams().groupId) {
