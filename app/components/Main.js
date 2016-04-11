@@ -6,9 +6,9 @@ import UserInGroup from './UserInGroup'
 import Profile from './Profile'
 
 const groups = [
- 	{"title": "БТК-01", "users_count": 1, "id": 1},
-	{"title": "ТБ-91", "users_count": 1, "id": 2},
-    {"title": "ТБ-92", "users_count": 1, "id": 3},
+ 	{"title": "БТК-01", "id": 1},
+	{"title": "ТБ-91", "id": 2},
+    {"title": "ТБ-92", "id": 3},
 ]
 
 const users = [
